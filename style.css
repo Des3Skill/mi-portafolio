@@ -25,6 +25,7 @@ footer {
 }
 
 a i {
+    z-index: 1000;
     width: 30px;
     font-size: 30px;      /* Tamaño más visible */
     color: rgb(255, 0, 0);         /* Asegurate de que no se pierda con el fondo */
