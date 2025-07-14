@@ -25,12 +25,11 @@ footer {
 }
 
 a i {
-    z-index: 1000;
-    width: 30px;
-    font-size: 30px;      /* Tamaño más visible */
-    color: rgb(255, 0, 0);         /* Asegurate de que no se pierda con el fondo */
-    margin: 10px;
-    transition: color 0.3s;
+  font-size: 30px;
+  color: #000;
+  margin: 10px;
+  transition: color 0.3s;
+  display: inline-block;
 }
 
 a i:hover {
