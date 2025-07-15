@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
 </head>
 <body>
   <header>
@@ -15,23 +14,43 @@
     <p>Estoy aprendiendo desarrollo web 🚀</p>
   </header>
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>Me gusta aprender HTML, CSS, y pronto JavaScript. Este es mi primer portafolio.</p>
-  </section>
+  <main>
+    <section class="botones">
+      <button data-target="sobre-mi">Sobre mí</button>
+      <button data-target="proyectos">Proyectos</button>
+      <button data-target="skills">Skills</button>
+    </section>
 
-  <section>
-    <h2>Proyectos</h2>
-    <ul>
-      <li><a href="#">Proyecto 1 (en desarrollo)</a></li>
-      <li><a href="#">Proyecto 2 (próximamente)</a></li>
-    </ul>
-  </section>
+    <section class="contenido">
+      <div id="sobre-mi" class="seccion activa">
+        <h2>Sobre mí</h2>
+        <p>Soy Ruben Cruz, técnico en informática, aprendiendo desarrollo web 🚀</p>
+      </div>
+
+      <div id="proyectos" class="seccion">
+        <h2>Proyectos</h2>
+        <p>💡 Proyecto 1: Portfolio básico<br>🛠️ Proyecto 2: En construcción</p>
+      </div>
+
+      <div id="skills" class="seccion">
+        <h2>Skills</h2>
+        <ul>
+          <li>✅ HTML</li>
+          <li>✅ CSS</li>
+          <li>🧠 JavaScript (aprendiendo)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>📫 Contacto: <a href="https://github.com/Des3Skill" target="_blank">
-        <i class="fab fa-github"></i></a>
+    <p>📫 Contacto: 
+      <a href="https://github.com/Des3Skill" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
     </p>
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
