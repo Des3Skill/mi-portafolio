@@ -55,7 +55,7 @@ main {
 .contenido {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   height: 300px; /* Altura fija o adaptable */
   overflow: hidden;
   margin: 0 auto;
@@ -80,6 +80,28 @@ main {
   transform: translateX(0);
   z-index: 1;
 }
+
+#sobre-mi img{
+  justify-self: center;
+  align-self: center;
+  width: 400px;
+  border-radius: 200px;
+}
+
+#sobre-mi {
+  width: 100%;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  gap: 1rem;
+  grid-template-columns: 50% auto;
+  text-align: start;
+}
+
+.sub-sobre-mi{
+    margin-left: 2rem;
+}
+
 
 
 /* Footer */
